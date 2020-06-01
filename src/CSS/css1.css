@@ -6,6 +6,12 @@
 body{
     background-color: rgb(226, 226, 226);
     font: 12pt times;
+    background-image: url(./Background/sala.jpg);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
 }
 
 .form{
