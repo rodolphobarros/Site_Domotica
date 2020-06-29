@@ -1,18 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
-
-
-
 const App = props => {
 const [value, setValue] = useState(false);
 const style = value ? 'toggle' : 'toggle toggle-value'
-  return (
-    <div className={style} onClick={()=>setValue(!value)} /> 
-
-
-        );
+return(
+  <l className={style} onClick={()=>setValue(!value)} /> 
+  );
 };
 
 function Switch()
